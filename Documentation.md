@@ -12,7 +12,7 @@ If you use Microsoft Teams, you can use the Azure app for Teams to easily monito
 
 ## Prerequisites
 > [!NOTE]
-> * The app posts notifications for metric alerts. Support for activity and log alerts will added soon.
+> * The app posts notifications for metric alerts. Support for 'activity log' and 'log alerts' will added soon.
 > * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported.
 
 
