@@ -17,15 +17,19 @@ If you use Microsoft Teams, you can use the Azure app for Teams to easily monito
 
 
 
-
 ## Add the Azure app to your team in Microsoft Teams
+Download the manifest file from [this](https://google.com) location and upload it as a custom app and install it to the team of your choice. 
+> ![Add as custom app](./teams/add-as-custom-app.png)
+
+Upon installing, a welcome message is displayed as shown in the following image. Use the @azure repos handle to start interacting with the app.
+> ![welcome message](./teams/welcome-message.png)
 
 
 > ![Image](./teams/image.png)
 
 
 ## Link the Azure app to action groups 
-
+To link an action group to a channel, one must be part of Azure Monitor Contributor group. 
 
 ## Manage action groups
 
