@@ -47,7 +47,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
 > ![select subscription](./teams/select-subscription.png)
 > ![select action group](./teams/select-action-group.png)
 
-  To link an action group to a channel, one must be part of Azure Monitor Contributor group. 
+  To link an action group to a channel, one must be part of Azure Monitor Contributor group. When an action group is linked to a channel a webhook action will be created with the name Azure_Microsoft_Teams_<Time_stamp> for the linked action group. 
 
 ## Unlink an action group
 Run `actionGroups` command. Click on 'View all action groups' button and select the action group that you want to unlink.
@@ -56,6 +56,26 @@ Run `actionGroups` command. Click on 'View all action groups' button and select 
 
 To unlink an action group, one must be part of Azure Monitor Contributor group. 
 
+## Receiving notifications
+Once an action group is linked to a channel, all alerts sent to this action group will be directed to the channel in the form of notifications.
+
+> ![metric notification](./teams/metric notification.png)
+
+For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a graph would be rendered.
+
+## Future work
+We’re constantly at work to improve the app, and soon you’ll see new features stated below
+
+> * Support for activity and log alerts
+> * Ability to acknowledge and close an alert from the channel (change alert state)
+> * Ability to get pipeline deployment data (for virtual machines only)
+> * Threading of notifications
 
 ## Troubleshooting
+
+1) For metric alerts, the cards are not enriched with time charts
+Possible cause: The user who linked the action group does not have access to the resource for which the alert was fired.
+
+
+
 
