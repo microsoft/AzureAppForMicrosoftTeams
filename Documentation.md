@@ -50,11 +50,11 @@ Upon installing, a welcome message is displayed as shown in the following image.
   To link an action group to a channel, one must be part of Azure Monitor Contributor group. 
 
 ## Unlink an action group
-1. Run `actionGroups` command and click on 'View all action groups' button. 
+Run `actionGroups` command. Click on 'View all action groups' button and select the action group that you want to unlink.
 
 > ![view-all-action-groups](./teams/view-all-action-groups.png)
 
-3. Click on 'Link an action group' bu
+To unlink an action group, one must be part of Azure Monitor Contributor group. 
 
 
 ## Troubleshooting
