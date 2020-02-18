@@ -44,7 +44,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
 
 3. Click on 'Link an action group' button. Select a subscription and the action group that you want to link to the channel.
 
-> ![link action group](./teams/link-action-group.PNG)
+> ![link action group](./teams/link-action-group.png)
 
   To link an action group to a channel, one must be part of Azure Monitor Contributor group. When an action group is linked to a channel a webhook action will be created with the name Azure_Microsoft_Teams_<Time_stamp> for the linked action group. 
 
