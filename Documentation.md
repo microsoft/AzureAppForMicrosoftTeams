@@ -33,7 +33,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
 > ![sigin consent](./teams/signin-consent.png)
 > ![sigin success](./teams/signin-success.png)
 
-2. To view, add and remove actions groups for a channel, use the following command:
+2. To view, link and unlink actions groups for a channel, use the following command:
 
   ```
    @azure actionGroups
@@ -41,6 +41,12 @@ Upon installing, a welcome message is displayed as shown in the following image.
   The `action groups` command lists all the action groups linked to the channel. It also helps users to link and unlink action groups.
 
 > ![action groups command](./teams/actions-groups-command.png)
+
+3. Click on 'Link an alert' button and select subscription and the action group that you want to linkt o the channel.
+
+  ```
+
+
 
 To link an action group to a channel, one must be part of Azure Monitor Contributor group. 
 
