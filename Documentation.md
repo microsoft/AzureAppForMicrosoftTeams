@@ -40,7 +40,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
   ```
   The `action groups` command lists all the action groups linked to the channel. It also helps users to link and unlink action groups.
 
-> ![action groups command](./teams/actions-groups-command.PNG)
+> ![action groups command](./teams/action-groups-command.PNG)
 
 3. Click on 'Link an action group' button. Select a subscription and the action group that you want to link to the channel.
 
@@ -58,7 +58,7 @@ To unlink an action group, one must be part of Azure Monitor Contributor group.
 ## Receiving notifications
 Once an action group is linked to a channel, all alerts sent to this action group will be directed to the channel in the form of notifications.
 
-> ![metric notification](./teams/metric notification.PNG)
+> ![metric notification](./teams/metric-notification.PNG)
 
 For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a graph would be rendered.
 
