@@ -22,16 +22,16 @@ Download the manifest file from [here](https://google.com) and upload it as a cu
 > ![Add as custom app](./teams/add-as-custom-app.PNG)
 
 Upon installing, a welcome message is displayed as shown in the following image. Use the @azure handle to start interacting with the app.
-> ![welcome message](./teams/welcome-message.png)
+> ![welcome message](./teams/welcome-message.PNG)
 
 
 ## Link the Azure app to action groups 
 
 1. Once the app is installed in your team, authenticate yourself to Azure app using the @azure signin command.
 
-> ![sigin button](./teams/signin-button.png)
-> ![sigin consent](./teams/signin-consent.png)
-> ![sigin success](./teams/signin-success.png)
+> ![sigin button](./teams/signin-button.PNG)
+> ![sigin consent](./teams/signin-consent.PNG)
+> ![sigin success](./teams/signin-success.PNG)
 
 2. To view, link and unlink actions groups for a channel, use the following command:
 
@@ -40,26 +40,26 @@ Upon installing, a welcome message is displayed as shown in the following image.
   ```
   The `action groups` command lists all the action groups linked to the channel. It also helps users to link and unlink action groups.
 
-> ![action groups command](./teams/actions-groups-command.png)
+> ![action groups command](./teams/actions-groups-command.PNG)
 
 3. Click on 'Link an action group' button. Select a subscription and the action group that you want to link to the channel.
 
-> ![select subscription](./teams/select-subscription.png)
-> ![select action group](./teams/select-action-group.png)
+> ![select subscription](./teams/select-subscription.PNG)
+> ![select action group](./teams/select-action-group.PNG)
 
   To link an action group to a channel, one must be part of Azure Monitor Contributor group. When an action group is linked to a channel a webhook action will be created with the name Azure_Microsoft_Teams_<Time_stamp> for the linked action group. 
 
 ## Unlink an action group
 Run `actionGroups` command. Click on 'View all action groups' button and select the action group that you want to unlink.
 
-> ![view-all-action-groups](./teams/view-all-action-groups.png)
+> ![view-all-action-groups](./teams/view-all-action-groups.PNG)
 
 To unlink an action group, one must be part of Azure Monitor Contributor group. 
 
 ## Receiving notifications
 Once an action group is linked to a channel, all alerts sent to this action group will be directed to the channel in the form of notifications.
 
-> ![metric notification](./teams/metric notification.png)
+> ![metric notification](./teams/metric notification.PNG)
 
 For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a graph would be rendered.
 
