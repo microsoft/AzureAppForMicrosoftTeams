@@ -25,7 +25,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
 > ![welcome message](./teams/welcome-message.PNG)
 
 
-## Link the Azure app to action groups 
+## Link your channel to action groups 
 
 1. Once the app is installed in your team, authenticate yourself to Azure app using the @azure signin command.
 
@@ -38,7 +38,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
   ```
    @azure actionGroups
   ```
-  The `action groups` command lists all the action groups linked to the channel. It also helps users to link and unlink action groups.
+  The `actionGroups` command lists all the action groups linked to the channel. It also helps users to link and unlink action groups.
 
 > ![action groups command](./teams/action-groups-command.PNG)
 
