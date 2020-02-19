@@ -38,7 +38,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
   ```
    @azure actionGroups
   ```
-  The `actionGroups` command lists all the action groups linked to the channel. It also helps users to link and unlink action groups.
+  The `actionGroups` command lists all the action groups linked to the channel. 
 
 > ![action groups command](./teams/action-groups-command.PNG)
 
