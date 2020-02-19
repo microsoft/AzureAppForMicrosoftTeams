@@ -85,7 +85,7 @@ We’re constantly at work to improve the app, and soon you’ll see new feature
 ## Troubleshooting
 
 1) For metric alerts, the cards are not enriched with time charts \n\r
-Possible cause: The user who linked the action group does not have access to the resource for which the alert was fired.
+- Possible cause: The user who linked the action group does not have access to the resource for which the alert was fired.
 
 
 
