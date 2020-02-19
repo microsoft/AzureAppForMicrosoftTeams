@@ -68,7 +68,7 @@ The following table lists all the commands you can use in your Microsoft Teams c
 
 |Command	| Functionality |
 | -------------------- |----------------|
-| @azure actionGroups	| View,  link or unlink action groups for this channel |
+| @azure actionGroups	| View,  link or unlink action groups for a channel |
 | @azure signin	| Sign in to your Azure account |
 | @azure signout	| Sign out from your Azure account |
 | @azure feedback	| Report a problem or suggest a feature |
@@ -85,7 +85,7 @@ We’re constantly at work to improve the app, and soon you’ll see new feature
 ## Troubleshooting
 
 1) For metric alerts, the cards are not enriched with time charts
-Possible cause: The user who linked the action group does not have access to the resource for which the alert was fired.
+- Possible cause: The user who linked the action group does not have access to the resource for which the alert was fired.
 
 
 
