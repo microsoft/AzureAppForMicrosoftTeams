@@ -8,7 +8,7 @@ ms.date: 02/14/2020
 If you use [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you can use the Azure app for Microsoft Teams to easily monitor your applications and infrastructure on Azure. Link action groups of your choice with a channel and get notified on the alerts.
 
 
-## Prerequisites
+## Prerequisites & limitations
 Being a private preview, Azure app has certain limitations as detailed below. We will continue to invest in the app to remove some of these constraints.
 
 > [!NOTE]
@@ -18,7 +18,7 @@ Being a private preview, Azure app has certain limitations as detailed below. We
 
 
 ## Add the Azure app to your team
-Download the manifest file from [here](https://google.com) and upload it as a custom app and install it to the team of your choice. 
+Download the [manifest](https://google.com) and upload it as a custom app and install it to the team of your choice. 
 > ![Add as custom app](./teams/add-as-custom-app.PNG)
 
 Upon installing, a welcome message is displayed as shown in the following image. Use the @azure handle to start interacting with the app.
