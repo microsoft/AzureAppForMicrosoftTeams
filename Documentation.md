@@ -5,7 +5,7 @@ ms.date: 02/14/2020
 ---
 
 # Azure with Microsoft Teams
-If you use [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you can use the Azure app for Microsoft Teams to easily monitor your application and infrastructure on Azure. Link action groups of your choice with a channel and get notified on the alerts.
+If you use [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you can use the Azure app for Microsoft Teams to easily monitor your applications and infrastructure on Azure. Link action groups of your choice with a channel and get notified on the alerts.
 
 
 ## Prerequisites
