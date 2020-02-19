@@ -38,29 +38,29 @@ Upon installing, a welcome message is displayed as shown in the following image.
   ```
    @azure actionGroups
   ```
-  The `actionGroups` command lists all the action groups linked to the channel. 
+  The `actionGroups` command lists all the action groups linked to a channel. 
 
 > ![action groups command](./teams/action-groups-command.PNG)
 
-3. Click on 'Link an action group' button. Select a subscription and the action group that you want to link to the channel.
+3. Click on 'Link an action group'. Select a subscription and the action group that you want to link to the channel.
 
 > ![link action group](./teams/link-action-group.png)
 
-  To link an action group to a channel, one must be part of Azure Monitor Contributor group. When an action group is linked to a channel a webhook action will be created with the name Azure_Microsoft_Teams_<Time_stamp> for the linked action group. 
+  To link an action group to a channel, one must be part of Azure Monitor Contributor group. When an action group is linked to a channel a webhook action will be created with the name MicrosoftTeams_AzureApp_<Time_stamp> for the linked action group. 
 
-## Unlink an action group
-Run `actionGroups` command. Click on 'View all action groups' button and select the action group that you want to unlink.
+## Unlink an action group from a channel
+Run `actionGroups` command. Click on 'View all action groups' and select the action group that you want to unlink.
 
 > ![view-all-action-groups](./teams/view-all-action-groups.PNG)
 
 To unlink an action group, one must be part of Azure Monitor Contributor group. 
 
 ## Receiving notifications
-Once an action group is linked to a channel, all alerts sent to this action group will be directed to the channel in the form of notifications.
+Once an action group is linked to a channel, all alerts sent to the action group will be directed to the channel in the form of notifications.
 
 > ![metric notification](./teams/metric-notification.PNG)
 
-For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a graph would be rendered.
+For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a time series graph would be additionally rendered.
 
 ## Command reference
 
