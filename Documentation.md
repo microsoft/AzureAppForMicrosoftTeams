@@ -62,6 +62,18 @@ Once an action group is linked to a channel, all alerts sent to this action grou
 
 For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a graph would be rendered.
 
+## Command reference
+
+The following table lists all the commands you can use in your Microsoft Teams channel.
+
+|Command	| Functionality |
+| -------------------- |----------------|
+| @azure actionGroups	| View,  link or unlink action groups for this channel |
+| @azure signin	| Sign in to your Azure account |
+| @azure signout	| Sign out from your Azure account |
+| @azure feedback	| Report a problem or suggest a feature |
+
+
 ## Future work
 We’re constantly at work to improve the app, and soon you’ll see new features stated below
 
