@@ -96,5 +96,6 @@ We’re constantly at work to improve the app, and soon you’ll see new feature
 - Possible cause: The user who linked the action group does not have access to the resource for which the alert was fired.
 
 
-
+## Private preview terms and condition
+PREVIEWS ARE PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND ARE EXCLUDED FROM THE SERVICE LEVEL AGREEMENTS AND LIMITED WARRANTY. Previews may not be covered by customer support.We may change or discontinue Previews at any time without notice. We also may choose not to release a Preview into "General Availability". For more details [refer](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/)
 
