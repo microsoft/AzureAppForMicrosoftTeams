@@ -25,13 +25,13 @@ Being a private preview, Azure app has certain limitations as detailed below. We
 Download the [manifest](https://google.com) and upload it as a custom app and install it in the team of your choice. 
 > ![Add as custom app](./teams/add-as-custom-app.PNG)
 
-Upon installing, a welcome message is displayed as shown in the following image. Use the @azure handle to start interacting with the app.
+Upon installing, a welcome message is displayed as shown in the following image. Use the ``@azure`` handle to start interacting with the app.
 > ![welcome message](./teams/welcome-message.PNG)
 
 
 ## Signin to your app
 
-Once the app is installed in your team, authenticate yourself to Azure app using the @azure signin command.
+Once the app is installed in your team, authenticate yourself to Azure app using the ``@azure signin`` command.
 
 > ![sigin button](./teams/signin-button.PNG)
 > ![sigin consent](./teams/signin-consent.PNG)
