@@ -39,7 +39,7 @@ Once the app is installed in your team, authenticate yourself to Azure app using
 
 
 ## Link your channel to action groups 
-Azure uses action groups to send notifications on applications and infrastructure to users. Action groups help users to configure the medium (SMS, EMail, Voice, Mobile app, Webhooks, etc) through which they want to get notified on. Every alert alert on Azure is mapped to one or more action groups. Azure app for Microsoft Teams allows users to link to action groups of their choice and get notified on the alerts.
+Azure uses action groups to send notifications about applications and infrastructure to users. Action groups help users to configure the medium (SMS, EMail, Voice, Mobile app, Webhooks, etc) through which they want to get notified on. Every alert alert on Azure is mapped to one or more action groups. Azure app for Microsoft Teams allows users to link to action groups of their choice and get notified on the alerts.
 
 1. To view, link and unlink actions groups for a channel, use the following command:
 
