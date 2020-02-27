@@ -54,7 +54,7 @@ Azure uses action groups to send notifications about applications and infrastruc
 
 > ![link action group](./teams/link-action-group.png)
 
-  To link an action group to a channel, one must be part of Azure Monitor Contributor group. When an action group is linked to a channel a webhook action will be created with the name MicrosoftTeams_AzureApp_<Time_stamp> for the linked action group. 
+  To link an action group to a channel, one must be part of [Azure Monitor Contributor](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) group. When an action group is linked to a channel a webhook action will be created with the name MicrosoftTeams_AzureApp_<Time_stamp> for the linked action group. 
 
 ## Unlink an action group from a channel
 Run `actionGroups` command. Click on 'View all action groups' and select the action group that you want to unlink.
