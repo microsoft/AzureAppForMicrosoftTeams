@@ -10,7 +10,7 @@ ms.date: 02/14/2020
 ChatOps is a team and collaboration centric way of working where in people, conversations, tools and files are ensembled in one place i.e. workplace messaging apps. Modern day developers spend considerable amount of time on [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) trying to build world class products and services. 
 
 
-Today, considerable amount of time is spent to monitor applications, infrastructure and to debug issues by developers and IT operations team. This necessitates constant switching of context between Azure (get alerts, diagnoze & take remedial actions) and Microsoft Teams (collaborate). Azure app for Microsoft Teams brings best of both the worlds by integrating Azure with Microsoft Teams. Users can get all the alerts from Azure Monitor in their Teams channel by linking their channel to an action group on Azure. 
+Today, considerable amount of time is spent to monitor applications, infrastructure and to debug issues by developers and IT operations team. This necessitates constant switching of context between Azure (get alerts, diagnose & take remedial actions) and Microsoft Teams (collaborate). Azure app for Microsoft Teams brings best of both the worlds by integrating Azure with Microsoft Teams. Users can get all the alerts from Azure Monitor in their Teams channel by linking their channel to an action group on Azure. 
 
 ## Prerequisites & limitations
 Being a private preview, Azure app has certain limitations as detailed below. We will continue to invest in the app to remove some of these constraints.
