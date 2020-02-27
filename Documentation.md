@@ -29,15 +29,19 @@ Upon installing, a welcome message is displayed as shown in the following image.
 > ![welcome message](./teams/welcome-message.PNG)
 
 
-## Link your channel to action groups 
+## Signin to your app
 
-1. Once the app is installed in your team, authenticate yourself to Azure app using the @azure signin command.
+Once the app is installed in your team, authenticate yourself to Azure app using the @azure signin command.
 
 > ![sigin button](./teams/signin-button.PNG)
 > ![sigin consent](./teams/signin-consent.PNG)
 > ![sigin success](./teams/signin-success.PNG)
 
-2. To view, link and unlink actions groups for a channel, use the following command:
+
+## Link your channel to action groups 
+Azure uses action groups to send notifications on applications and infrastructure to users. Action groups help users to configure the medium (SMS, EMail, Voice, Mobile app, Webhooks, etc) through which they want to get notified on. Every alert alert on Azure is mapped to one or more action groups. Azure app for Microsoft Teams allows users to link to action groups of their choice and get notified on the alerts.
+
+1. To view, link and unlink actions groups for a channel, use the following command:
 
   ```
    @azure actionGroups
@@ -46,7 +50,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
 
 > ![action groups command](./teams/action-groups-command.PNG)
 
-3. Click on 'Link an action group'. Select a subscription and the action group that you want to link to the channel.
+2. Click on 'Link an action group'. Select a subscription and the action group that you want to link to the channel.
 
 > ![link action group](./teams/link-action-group.png)
 
