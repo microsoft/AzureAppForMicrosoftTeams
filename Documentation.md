@@ -50,7 +50,7 @@ Azure uses action groups to send notifications about applications and infrastruc
 
 > ![action groups command](./teams/action-groups-command.PNG)
 
-2. Click on 'Link an action group'. Select a subscription and the action group that you want to link to the channel.
+2. Click on 'Link an action group' button. Select a subscription and the action group that you want to link to the channel.
 
 > ![link action group](./teams/link-action-group.png)
 
