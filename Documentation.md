@@ -4,7 +4,7 @@ description: Monitor your applications and infrastructure on Azure from Microsof
 ms.date: 02/14/2020
 ---
 
-# Azure with Microsoft Teams
+# Azure with Microsoft Teams (Private preview)
 [Azure](https://azure.microsoft.com/) is a cloud computing service offering by Microsoft. It has over 100 services that help to build, deploy and manage applications across cloud, on-premise and at the edge. Millions of users use Azure services daily.
 
 ChatOps is a team and collaboration centric way of working where in people, conversations, tools and files are ensembled in one place i.e. workplace messaging apps. Modern day developers spend considerable amount of time on [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) trying to build world class products and services. 
