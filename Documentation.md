@@ -97,5 +97,5 @@ We’re constantly at work to improve the app, and soon you’ll see new feature
 
 
 ## Private preview terms and condition
-PREVIEWS ARE PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND ARE EXCLUDED FROM THE SERVICE LEVEL AGREEMENTS AND LIMITED WARRANTY. Previews may not be covered by customer support.We may change or discontinue Previews at any time without notice. We also may choose not to release a Preview into "General Availability". For more details [refer](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/)
+PREVIEWS ARE PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND ARE EXCLUDED FROM THE SERVICE LEVEL AGREEMENTS AND LIMITED WARRANTY. Previews may not be covered by customer support.We may change or discontinue Previews at any time without notice. We also may choose not to release a Preview into "General Availability". Refer [this](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) for more details.
 
