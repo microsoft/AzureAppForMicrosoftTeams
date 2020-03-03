@@ -36,7 +36,9 @@ Upon installing, a welcome message is displayed as shown in the following image.
 Once the app is installed in your team, authenticate yourself to Azure app using the ``@azure signin`` command.
 
  ![sigin button](./teams/signin-button.png)
+ 
  ![sigin consent](./teams/signin-consent.png)
+ 
  ![sigin success](./teams/signin-success.png)
 
 
