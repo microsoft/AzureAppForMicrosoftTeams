@@ -18,8 +18,8 @@ Being a private preview, Azure app has certain limitations as detailed below. We
   * Azure app posts notifications for metric alerts. Support for 'activity log' and 'log alerts' will added soon.
   * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported.
   * Azure app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema)  notifications only.
-    * Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
-    * To report a problem or suggest a feature, users need to have a GitHub account.
+  * Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
+  * To report a problem or suggest a feature, users need to have a GitHub account.
 ```
 
 ## Add the Azure app to your team
