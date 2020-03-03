@@ -89,11 +89,12 @@ The following table lists all the commands you can use in your Microsoft Teams c
 ## Future work
 We’re constantly at work to improve the app, and soon you’ll see new features stated below
 
-> * Support for activity and log alerts
-> * Ability to acknowledge and close an alert from the channel (change alert state)
-> * Ability to get pipeline deployment data (for virtual machines only)
-> * Threading of notifications
-
+```
+  * Support for activity and log alerts
+  * Ability to acknowledge and close an alert from the channel (change alert state)
+  * Ability to get pipeline deployment data (for virtual machines only)
+  * Threading of notifications
+```
 ## Troubleshooting
 
 1) For metric alerts, the cards are not enriched with time charts
