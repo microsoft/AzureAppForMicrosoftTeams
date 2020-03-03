@@ -27,6 +27,7 @@ Download the [manifest](https://google.com) and upload it as a custom app and in
  ![Add as custom app](./teams/add-as-custom-app.png)
 
 Upon installing, a welcome message is displayed as shown in the following image. Use the ``@azure`` handle to start interacting with the app.
+
  ![welcome message](./teams/welcome-message.png)
 
 
