@@ -16,9 +16,9 @@ Today, considerable amount of time is spent to monitor applications, infrastruct
 Being a private preview, Azure app has certain limitations as detailed below. We will continue to invest in the app to remove some of these constraints.
 
 > [!NOTE]
-> * The app posts notifications for metric alerts. Support for 'activity log' and 'log alerts' will added soon.
+> * Azure app posts notifications for metric alerts. Support for 'activity log' and 'log alerts' will added soon.
 > * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported.
-> * This app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema) notifications only.
+> * Azure app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema) notifications only.
 > * Need to add a point on user id in ADO. WIll have to frame accordingly. 
 
 
