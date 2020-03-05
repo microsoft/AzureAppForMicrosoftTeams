@@ -7,10 +7,10 @@ ms.date: 02/14/2020
 # Azure with Microsoft Teams (Private preview)
 [Azure](https://azure.microsoft.com/) is a cloud computing service offering by Microsoft. It has over 100 services that help to build, deploy and manage applications across cloud, on-premise and at the edge. Millions of users use Azure services daily.
 
-ChatOps is a team and collaboration centric way of working where in people, conversations, tools and files are ensembled in one place i.e. workplace messaging apps. Modern day developers spend considerable amount of time on [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) trying to build world class products and services. 
+ChatOps is a team and collaboration centric way of working where in people, conversations, tools, and files are ensembled in one place i.e. workplace messaging apps. Modern day developers spend considerable amount of time on [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) trying to build world class products and services. 
 
 
-Today, considerable amount of time is spent to monitor applications, infrastructure and to debug issues by developers and IT operations team. This necessitates constant switching of context between Azure (get alerts, diagnose & take remedial actions) and Microsoft Teams (collaborate). Azure app for Microsoft Teams brings best of both the worlds by integrating Azure with Microsoft Teams. Users can get all the alerts from Azure in their Teams channel by linking their channel to an action group on Azure. 
+Today, considerable amount of time is spent to monitor applications, infrastructure, and to debug issues by developers and IT operations team. This necessitates constant switching of context between Azure (get alerts, diagnose & take remedial actions) and Microsoft Teams (collaborate). Azure app for Microsoft Teams brings best of both the worlds by integrating Azure with Microsoft Teams. Users can get all the alerts from Azure in their Teams channel by linking their channel to an action group on Azure. 
 
 ## Prerequisites 
 Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
