@@ -16,7 +16,7 @@ Today, considerable amount of time is spent to monitor applications, infrastruct
 Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
  
 ## Get Started - Add the Azure app to your Team
-Download the [manifest](https://google.com) and upload it as a custom app and install it in the team of your choice. 
+Download the [manifest](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/manifest.zip) and upload it as a custom app and install it in the team of your choice. 
 
  ![Add as custom app](./teams/add-as-custom-app.png)
 
