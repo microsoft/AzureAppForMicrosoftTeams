@@ -12,17 +12,10 @@ ChatOps is a team and collaboration centric way of working where in people, conv
 
 Today, considerable amount of time is spent to monitor applications, infrastructure and to debug issues by developers and IT operations team. This necessitates constant switching of context between Azure (get alerts, diagnose & take remedial actions) and Microsoft Teams (collaborate). Azure app for Microsoft Teams brings best of both the worlds by integrating Azure with Microsoft Teams. Users can get all the alerts from Azure in their Teams channel by linking their channel to an action group on Azure. 
 
-## Prerequisites & limitations
-Being a private preview, Azure app has certain limitations as detailed below. We will continue to invest in the app to remove some of these constraints.
-```
-  * Azure app posts notifications for metric alerts. Support for 'activity log' and 'log alerts' will added soon.
-  * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported.
-  * Azure app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema)  notifications only.
-  * Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
-  * To report a problem or suggest a feature, users need to have a GitHub account.
-```
-
-## Add the Azure app to your team
+## Prerequisites 
+Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
+ 
+## Get Started - Add the Azure app to your Team
 Download the [manifest](https://google.com) and upload it as a custom app and install it in the team of your choice. 
 
  ![Add as custom app](./teams/add-as-custom-app.png)
@@ -32,7 +25,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
  ![welcome message](./teams/welcome-message.png)
 
 
-## Signin to your app
+## Sign in to your app
 
 Once the app is installed in your team, authenticate yourself to Azure app using the ``@azure signin`` command.
 
@@ -86,16 +79,23 @@ The following table lists all the commands you can use in your Microsoft Teams c
 | @azure signout	| Sign out from your Azure account |
 | @azure feedback	| Report a problem or suggest a feature |
 
+## Limitations
+Being a private preview, Azure app has certain limitations as detailed below. We will continue to invest in the app to remove some of these constraints.
+
+  * Azure app posts notifications only for **metric alerts**. Support for 'activity log' and 'log alerts' will added soon.
+  *  Azure app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema)  notifications only.
+  * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported. The notification will have data only for the first dimension. 
+  * To report a problem or suggest a feature, users need to have a GitHub account.
+  * The app needs to be sideloaded and not avaialble in Teams app store as we are in private preview. 
 
 ## Future work
 We’re constantly at work to improve the app, and soon you’ll see new features stated below
 
-```
   * Support for activity and log alerts
   * Ability to acknowledge and close an alert from the channel (change alert state)
   * Ability to get pipeline deployment data (for virtual machines only)
   * Threading of notifications
-```
+
 ## Troubleshooting
 
 |Issue	| Possible cause |
