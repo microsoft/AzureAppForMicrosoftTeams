@@ -52,7 +52,7 @@ Azure uses action groups to send notifications about applications and infrastruc
 
  ![link action group](./teams/link-action-group.png)
 
-  To link an action group to a channel, one must be part of [Azure Monitor Contributor](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) group. When an action group is linked to a channel, a webhook action will be created with the name MicrosoftTeams_AzureApp_UTC_<Time_stamp> in the linked action group. 
+  To link an action group to a channel, one must be part of [Azure Monitor Contributor](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) group. When an action group is linked to a channel, a webhook action will be created with the name MicrosoftTeams_AzureApp_<Time_stamp> in the linked action group. 
 
 ## Unlink an action group from a channel
 To unlink an action group, run `@azure actionGroups` command. Click on 'View all action groups' button and select the action group that you want to unlink.
@@ -86,7 +86,7 @@ Being a private preview, Azure app has certain limitations as detailed below. We
   *  Azure app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema)  notifications only.
   * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported. The notification will have data only for the first dimension. 
   * To report a problem or suggest a feature, users need to have a GitHub account.
-  * The app needs to be sideloaded and not avaialble in Teams app store as we are in private preview. 
+  * The app needs to be sideloaded and is not avaialble in Teams app store as we are in private preview. 
 
 ## Future work
 We’re constantly at work to improve the app, and soon you’ll see new features stated below
