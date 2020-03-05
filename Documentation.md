@@ -64,7 +64,7 @@ To unlink an action group, one must be part of [Azure Monitor Contributor](https
 ## Receiving notifications
 Once an action group is linked to a channel, all alerts sent to the action group will be directed to the channel in the form of notifications.
 
- ![metric notification](./teams/metric-notification.PNG)
+ ![metric notification](./teams/metric-notification.png)
 
 For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a time series graph would be additionally rendered.
 
