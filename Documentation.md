@@ -14,7 +14,7 @@ Today, considerable amount of time is spent to monitor applications, infrastruct
 
 ## Prerequisites 
 Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
- 
+
 ## Get Started - Add the Azure app to your Team
 Download the [manifest](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/manifest.zip) and upload it as a custom app and install it in the team of your choice. 
 
@@ -24,6 +24,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
 
  ![welcome message](./teams/welcome-message.png)
 
+**It is recommended that you create a new channel for configuring the app. Depending on how the alerts are configured, the channel can get a little noisy (especially for activity alerts).**
 
 ## Sign in to your app
 
