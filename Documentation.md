@@ -23,8 +23,10 @@ Download the [manifest](https://github.com/microsoft/AzureAppForMicrosoftTeams/b
 Upon installing, a welcome message is displayed as shown in the following image. Use the ``@azure`` handle to start interacting with the app.
 
  ![welcome message](./teams/welcome-message.png)
-
-**It is recommended that you create a new channel for configuring the app. Depending on how the alerts are configured, the channel can get a little noisy (especially for activity alerts).**
+ 
+ ````
+# It is recommended that you create a new channel for configuring the app. Depending on how the alerts are configured, the channel can get a little noisy (especially for activity alerts).
+````
 
 ## Sign in to your app
 
