@@ -25,7 +25,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
  ![welcome message](./teams/welcome-message.png)
  
 
-**_Azure app uses webhooks which are not bound by [rate limit rules](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-rate-limiting). Hence, it is recommended that you create a new channel for configuring the app. Depending on how the alerts are configured, the channel can get noisy (especially for activity alerts)._**
+**_Note: Azure app uses webhooks which are not bound by [rate limit rules](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-rate-limiting). Hence, it is recommended that you create a new channel for configuring the app. Depending on how the alerts are configured, the channel can get noisy (especially for activity alerts)._**
 
 ## Sign in to your app
 
