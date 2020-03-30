@@ -73,7 +73,7 @@ For metric alerts, if the user who linked the action group has access to the res
 ## Change alert state
 The app also provides the ability to acknowledge or close an alert from the channel reducing the hop to Azure portal and ensure others in your team are up-to-date. 
  
-![changeAlert](./teams/changealert.png)
+![changeAlert](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/teams/changealert.png)
 
 ## Command reference
 
