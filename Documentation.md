@@ -13,7 +13,7 @@ ChatOps is a team and collaboration centric way of working where in people, conv
 Today, considerable amount of time is spent to monitor applications, infrastructure, and to debug issues by developers and IT operations team. This necessitates constant switching of context between Azure (get alerts, diagnose & take remedial actions) and Microsoft Teams (collaborate). Azure app for Microsoft Teams brings best of both the worlds by integrating Azure with Microsoft Teams. Users can get all the alerts from Azure in their Teams channel by linking their channel to an action group on Azure. 
 
 ## Prerequisites 
-Authentication to Azure happens via Azure DevOps. To use the app, users need to have an account in Azure DevOps. In case you do not have an Azure DevOps account, you can create one during the signin process.
+Authentication to Azure happens via Azure DevOps. To use the app, users need to have an identity in Azure DevOps. In case you do not have an Azure DevOps identity, you can create one during the signin process.
 
 ## Get Started - Add the Azure app to your Team
 Download the [manifest](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/manifest.zip) and upload it as a custom app and install it in the team of your choice. 
@@ -25,7 +25,7 @@ Upon installing, a welcome message is displayed as shown in the following image.
  ![welcome message](./teams/welcome-message.png)
  
 
-**_Note: Azure app uses webhooks which are not bound by [rate limit rules](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-rate-limiting). Hence, it is recommended that you create a new channel for configuring the app. Depending on how the alerts are configured, the channel can get noisy (especially for activity alerts)._**
+**_Note: Azure app uses webhooks which are not bound by [rate limit rules](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-rate-limiting). Hence, it is recommended that you create a new channel for getting the alerts from the app. It will also be helpful to have specific channels for specific types of alerts so that right folks can action it. Depending on how the alerts are configured, the channel can get noisy (especially for activity alerts)._**
 
 ## Sign in to your app
 
@@ -39,7 +39,7 @@ Once the app is installed in your team, authenticate yourself to Azure app using
 
 
 ## Link your channel to action groups 
-Azure uses action groups to send notifications about applications and infrastructure to users. Action groups help users to configure the medium (SMS, Email, Voice, Mobile app, Webhooks, etc) through which they want to get notified on. Every alert on Azure is mapped to one or more action groups. Azure app for Microsoft Teams allows users to link to action groups of their choice and get notified on the alerts.
+Azure uses **action groups** to send notifications about applications and infrastructure to users. Action groups help users to configure the medium (SMS, Email, Voice, Mobile app, Webhooks, etc) through which they want to get notified on. Every alert on Azure is mapped to one or more action groups. Azure app for Microsoft Teams allows users to link to action groups of their choice and get notified on the alerts.
 
 1. To view, link and unlink actions groups for a channel, use the following command:
 
@@ -70,6 +70,11 @@ Once an action group is linked to a channel, all alerts sent to the action group
 
 For metric alerts, if the user who linked the action group has access to the resource group for which the alert was sent, a time series graph would be additionally rendered.
 
+## Change alert state
+The app also provides the ability to acknowledge or close an alert from the channel reducing the hop to Azure portal and ensure others in your team are up-to-date. 
+ 
+![changeAlert](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/teams/changealert.png)
+
 ## Command reference
 
 The following table lists all the commands you can use in your Microsoft Teams channel.
@@ -84,7 +89,6 @@ The following table lists all the commands you can use in your Microsoft Teams c
 ## Limitations
 Being a private preview, Azure app has certain limitations as detailed below. We will continue to invest in the app to remove some of these constraints.
 
-  * Azure app posts notifications only for **metric alerts**. Support for 'activity log' and 'log alerts' will added soon.
   *  Azure app supports [Common alert schema](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema)  notifications only.
   * Alerts with multiple conditions or a single metric alert with multiple dimensions are not supported. The notification will have data only for the first dimension. 
   * To report a problem or suggest a feature, users need to have a GitHub account.
@@ -93,8 +97,6 @@ Being a private preview, Azure app has certain limitations as detailed below. We
 ## Future work
 We’re constantly at work to improve the app, and soon you’ll see new features stated below
 
-  * Support for activity and log alerts
-  * Ability to acknowledge and close an alert from the channel (change alert state)
   * Ability to get pipeline deployment data (for virtual machines only)
   * Threading of notifications
 
