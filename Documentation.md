@@ -112,7 +112,7 @@ We’re constantly at work to improve the app, and soon you’ll see new feature
 * Prefer Metric Alerts for better performance/latency; Use Log Alerts for powerful query-based triggers or lack of metrics
 * Properly define severity/descriptions and avoid sending blanket notifications to people who cannot take any actions
 * Setup Multi-resource Metric Alerts that can grow flexibly with your resources
-* Connect Alerts with **differnt action groups and teams channels** for effective and efficient management
+* Connect Alerts with **different action groups and teams channels** for effective and efficient management
 
 ## Private preview terms and condition
 PREVIEWS ARE PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND ARE EXCLUDED FROM THE SERVICE LEVEL AGREEMENTS AND LIMITED WARRANTY. Previews may not be covered by customer support.We may change or discontinue Previews at any time without notice. We also may choose not to release a Preview into "General Availability". Refer [this](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) for more details.
