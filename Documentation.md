@@ -75,6 +75,11 @@ The app also provides the ability to acknowledge or close an alert from the chan
  
 ![changeAlert](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/teams/changealert.png)
 
+## View what's changed
+To help debugging the alert and taking appropriate action, the app provides you the capability to trace and find the last deployments on your virtual machines. For VM resources you will see **what changed** button and on click of that it shows the last deployments done on the VM. You can browse to the pipeline as well as the specfic instance to find details of the artifact, commits and workitems deployed as well as who made the changes.  
+ 
+![changeAlert](https://github.com/microsoft/AzureAppForMicrosoftTeams/blob/master/teams/whatchanged.png)
+
 ## Command reference
 
 The following table lists all the commands you can use in your Microsoft Teams channel.
